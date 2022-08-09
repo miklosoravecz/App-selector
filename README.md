@@ -6,7 +6,7 @@ Open for example with live server in VSCode editor
 
 ### Deployed project
 
-
+https://app-selector.netlify.app
 
 ### The project contains
 
