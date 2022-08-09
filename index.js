@@ -74,7 +74,7 @@ let appList = [
 	}
 ]
 
-//The found data
+//The found data template
 const renderResult = result => {
 	let htmlResult = `
     <div class="card">
