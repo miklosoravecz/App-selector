@@ -83,17 +83,23 @@ const renderResult = result => {
                 <table class="table has-text-centered">
                     <tr>
                         <th>hakemuksen tyyppi</th>
-                        <th>id </th>
-                        <th>parent_id </th>
-                        <th>replace_id </th>
                         <th>nimi </th>
+                        <th>id </th>
                     </tr>
                     <tr>
-                        <th>${result.appType}</th>
-                        <th>${result.id}</th>
-                        <th>${result.parent_id}</th>
-                        <th>${result.replace_id}</th>
-                        <th>${result.name}</th>
+                        <td>${result.appType}</td>
+                        <td>${result.name}</th>
+                        <td>${result.id}</td>
+                    </tr>
+                    </table>
+                    <table class="table has-text-centered">
+                    <tr>
+                    <th>parent_id </th>
+                    <th>replace_id </th>
+                </tr>
+                    <tr>
+                        <td>${result.parent_id}</td>
+                        <td>${result.replace_id}</td>
                     </tr>
                 </table>
             </div>
