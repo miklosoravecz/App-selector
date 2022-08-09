@@ -91,12 +91,12 @@ const renderResult = result => {
                         <td>${result.name}</th>
                         <td>${result.id}</td>
                     </tr>
-                    </table>
-                    <table class="table has-text-centered">
+                </table>
+                <table class="table has-text-centered">
                     <tr>
-                    <th>parent_id </th>
-                    <th>replace_id </th>
-                </tr>
+                        <th>parent_id </th>
+                        <th>replace_id </th>
+                    </tr>
                     <tr>
                         <td>${result.parent_id}</td>
                         <td>${result.replace_id}</td>
