@@ -1,4 +1,4 @@
-# Todo App
+# App selector
 
 ## Running
 
