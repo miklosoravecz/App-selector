@@ -134,7 +134,7 @@ const appSelector = () => {
 			//Checking if the application exist in the data array
 			appList.findIndex(i => i.parent_id === parseInt(parent_id.value)) !== -1
 		) {
-			//Find the that juurihakemus wher pk is the Kesittelyhakemus fk
+			//Find the that juurihakemus where pk is the Kesittelyhakemus fk
 			let result = appList.find(
 				item =>
 					item.id === parseInt(parent_id.value) &&
