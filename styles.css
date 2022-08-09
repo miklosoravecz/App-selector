@@ -15,6 +15,7 @@ html {
 	);
 	min-height: 100%;
 }
+
 .content-container {
 	width: 70%;
 	margin: 0.5rem;
@@ -27,6 +28,7 @@ html {
 	font-size: 1.8rem;
 	padding: 2rem;
 }
+
 .header {
 	font-size: 3rem;
 	font-family: "Germania One", cursive;
@@ -75,6 +77,7 @@ html {
 	font-family: "Catamaran", sans-serif;
 	font-weight: bolder;
 }
+
 .--hide {
 	display: none;
 }
