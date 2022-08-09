@@ -6,7 +6,7 @@ Open for example with live server in VSCode editor
 
 ### Deployed project
 
-https://miklos-oravecz-todoapp.netlify.app/
+
 
 ### The project contains
 
