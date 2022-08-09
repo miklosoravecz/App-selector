@@ -2,7 +2,7 @@
 
 ## Running
 
-Open for example with live server in VSCode editor
+Open for example the index.html file with live server in VSCode editor.
 
 ### Deployed project
 
