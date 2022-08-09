@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>App-selector</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body class="body">
+		<div class="content-container box">
+			<div class="header">
+				<h1>App Selector</h1>
+			</div>
+			<div class="box">
+				<label for="apps">Valitse tyyppi</label>
+				<select class="input is-medium" name="apps" id="select-app">
+					<option value="JuuriHakemus">Juuri Hakemus</option>
+					<option value="KesittelyHakemus">Kesittely Hakemus</option>
+					<option value="KorjausHakemus">Korjaus Hakemus</option>
+				</select>
+				<label id="label">Id</label>
+				<input class="input is-medium" type="number" id="id" />
+				<input class="input is-medium --hide" type="number" id="parent-id" />
+				<input class="input is-medium --hide" type="number" id="replace-id" />
+				<div class="button-wrapper">
+					<button
+						class="button is-success is-light is-medium"
+						id="submit-button"
+					>
+						Valita
+					</button>
+				</div>
+			</div>
+			<div id="result-container">
+				<h1 id="result"></h1>
+			</div>
+		</div>
+
+		<div class="data" id="data">
+			<h2>Mock data</h2>
+			<p class="mock-data" id="mock-data"></p>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

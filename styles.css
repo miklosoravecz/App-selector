@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Germania+One&display=swap");
+.body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(
+		90deg,
+		rgba(234, 237, 247, 1) 0%,
+		rgba(184, 189, 218, 1) 85%
+	);
+}
+.content-container {
+	width: 85%;
+	margin: 0.5rem;
+}
+
+.header {
+	font-size: 3rem;
+	font-family: "Germania One", cursive;
+	margin: 2rem;
+}
+
+.card {
+	margin-top: 3rem;
+}
+
+.message,
+.card {
+	animation-duration: 1s;
+	animation-name: slidein;
+}
+
+.message {
+	margin: 2rem;
+}
+
+.button-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mock-data {
+	text-align: center;
+}
+
+.--hide {
+	display: none;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 200%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
