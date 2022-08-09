@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Germania+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+html {
+	height: 100%;
+}
+
 .body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background: linear-gradient(
-		90deg,
+		115deg,
 		rgba(234, 237, 247, 1) 0%,
 		rgba(184, 189, 218, 1) 85%
 	);
+	min-height: 100%;
 }
 .content-container {
 	width: 85%;
@@ -51,6 +57,17 @@
 	text-align: center;
 }
 
+.footer {
+	margin-top: 3rem;
+	background: none;
+	padding: unset;
+}
+
+.footer-text {
+	font-size: 1.2rem;
+	font-family: "Catamaran", sans-serif;
+	font-weight: bolder;
+}
 .--hide {
 	display: none;
 }
@@ -64,5 +81,11 @@
 	to {
 		margin-left: 0%;
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.mock-data {
+		font-size: 0.4rem;
 	}
 }
